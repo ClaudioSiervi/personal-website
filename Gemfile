@@ -34,3 +34,10 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 
 gem 'jekyll-seo-tag'
+
+# A Jekyll plugin that provides users with a traditional 
+# CMS-style graphical interface to author content and 
+# administer Jekyll sites. The project is divided into two parts. 
+# A Ruby-based HTTP API that handles Jekyll and filesystem operations, 
+# and a JavaScript-based front end, built on that API.
+gem 'jekyll-admin', group: :jekyll_plugins
