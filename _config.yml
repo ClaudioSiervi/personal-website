@@ -32,10 +32,7 @@ github_username:  jekyll
 # Build settings
 plugins:
   - jekyll-feed
-
-# Added to solve the problem:  Unknown tag 'seo' included in /site/_layouts/default.html
-gems:
-- jekyll-seo-tag
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
