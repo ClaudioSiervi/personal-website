@@ -41,3 +41,7 @@ gem "jekyll-seo-tag", "~> 2.6"
 # A Ruby-based HTTP API that handles Jekyll and filesystem operations, 
 # and a JavaScript-based front end, built on that API.
 gem 'jekyll-admin', group: :jekyll_plugins
+
+# GitHub-flavored Emoji plugin for Jekyll
+# https://github.com/jekyll/jemoji
+gem 'jemoji'
