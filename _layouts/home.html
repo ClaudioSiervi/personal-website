@@ -25,6 +25,9 @@ layout: default
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
         {%- endif -%}
+
+      <a href="{{ post.url | relative_url }}">Leia mais</a>
+      
       </li>
       {%- endfor -%}
     </ul>
